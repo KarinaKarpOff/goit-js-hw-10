@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #fafafa;
+  padding: 40px;
+}
+
+.form {
+  width: 360px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form input[type='number'] {
+  height: 40px;
+  padding: 8px 16px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+  font-size: 16px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-around;
+
+  padding: 16px;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+legend {
+  padding: 0 8px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #4e75ff;
+  color: white;
+
+  cursor: pointer;
+
+  transition: background 250ms ease;
+}
+
+button:hover {
+  background: #6c8cff;
+}
